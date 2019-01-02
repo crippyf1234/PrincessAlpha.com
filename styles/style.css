@@ -94,7 +94,7 @@ body {
 		height: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 		position: relative;
 	}
 	
@@ -114,5 +114,31 @@ body {
 		-webkit-text-fill-color: transparent;
 		-webkit-text-stroke-color: black;
 		-webkit-text-stroke-width: 2.00px; 
+	}
+	
+	#rightmenuitems {
+		display: none;
+	}
+	
+	.hero-text1 {
+		text-align: center;
+		position: absolute;
+		top: 6%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		color: white;
+	}
+	
+	.hero-text2 {
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		color: white;
+	}
+	
+	#slidy {
+		margin-bottom: 10px;
 	}
 }
